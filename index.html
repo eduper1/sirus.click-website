@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="responsive.css">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 
@@ -14,7 +16,9 @@
     <main>
 
         <div class="dashboard">
+            <!--Header row-->
             <div class="frame">
+                <!--Top left profile image-->
                 <section class="bar top">
 
                     <div class=" profile-img">
@@ -24,19 +28,26 @@
                         </figure>
                     </div>
                 </section>
-
+                <!--Main Header content-->
                 <section class="top">
                     <div class="mainHeader">
                         <h1>Home</h1>
                     </div>
+                    <div class='mainHeader'>
+                        <!-- Social media icons -->
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-snapchat-ghost"></a>
+                    </div>
                 </section>
             </div>
 
-
+            <!--Body row-->
             <div class="frame">
                 <section class="bar">
-
-
+                    <!--Nav bar link on left side-->
                     <div class="nav-bar">
                         <div class="link link2">
                             <a href="#">Home</a>
@@ -52,38 +63,81 @@
                 </section>
 
                 <section>
-
-
+                    <!--Main content-->
                     <div class="main">
-                        <div class="mainContent">
-                            <div class="p-left">
-                                <img src="rose.jpg" alt="">
+                        <!--Home content when once Home link is clicked-->
+                        <div id="home">
+                            <!--A row of one/two columns-->
+                            <div class="mainContent">
+                                <!--first column-->
+                                <div class="container">
+                                    <img src="rose.jpg" alt="Avatar" class="image">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h1>Hello World</h1>
+                                            <p>lorem hello world in that world program</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--second column
+                                <div class="container">
+                                    <img src="rose.jpg" alt="Avatar" class="image">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h1>Hello World</h1>
+                                            <p>lorem hello world in that world program</p>
+                                        </div>
+                                    </div>
+    
+                                </div>-->
                             </div>
-                            <div class="deta">
-                                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aliquid aut libero suscipit sapiente enim accusamus et accusantium dignissimos quaerat perferendis reprehenderit ipsa nulla itaque asperiores incidunt voluptates,
-                                    reiciendis consequuntur?</P>
-                            </div>
-                            <div class="p-right">
-                                <i class='far fa-meh' style='font-size:36px'></i>
-                                <i class='far fa-smile' style='font-size:36px'></i>
-                                <i class='far fa-frown' style='font-size:36px'></i>
+                            <!--A row of one/two columns-->
+                            <div class="mainContent">
+                                <!--first column-->
+                                <div class="container">
+                                    <img src="rose.jpg" alt="Avatar" class="image">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h1>Hello World</h1>
+                                            <p>lorem hello world in that world program</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!--Second column-->
+                                <div class="container">
+                                    <img src="rose.jpg" alt="Avatar" class="image">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h1>Hello World</h1>
+                                            <p>lorem hello world in that world program</p>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
 
-                        <div class="mainContent">
-                            <div class="p-left">
-                                <img src="rose.jpg" alt="">
-                            </div>
-                            <div class="deta">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fuga porro, et delectus hic expedita doloremque quam, illo nostrum velit inventore ullam eius alias assumenda sint illum maiores? Iure, est!</p>
-                            </div>
-                            <div class="p-right">
-                                <img src="rose.jpg" alt="">
+                        <!--About content once about link is clicked-->
+                        <div id="about">
+                            <div class="mainContent">
+                                <div class="container">
+                                    <img class="image" src="waves.jpg" alt="Waves">
+                                </div>
+                                <div class="container">
+                                    <div class="image">
+                                        <h3>Hello</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolorem quidem illo minus blanditiis dignissimos architecto necessitatibus alias temporibus. Nihil cum inventore temporibus fuga voluptatum voluptatibus ipsam distinctio accusantium alias?
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                 </section>
+
             </div>
 
         </div>
