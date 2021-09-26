@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src='https://kit.f.ontawesome.com/a076d05399.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="scripts.js" defer></script>
 </head>
 
 <body>
@@ -50,13 +53,13 @@
                     <!--Nav bar link on left side-->
                     <div class="nav-bar">
                         <div class="link link2">
-                            <a href="template/index.html">Home</a>
+                            <a id="Home">Home</a>
                         </div>
                         <div class="link link3">
-                            <a href="#">About</a>
+                            <a href="#" id="About">About</a>
                         </div>
                         <div class="link link4">
-                            <a href="#">Donate</a>
+                            <a href="#" id="Donate">Donate</a>
                         </div>
                     </div>
 
@@ -73,10 +76,12 @@
                                 <div class="container">
                                     <img src="image/rose.jpg" alt="Avatar" class="image">
                                     <div class="overlay">
-                                        <div class="text">
-                                            <h1>Hello World</h1>
-                                            <p>lorem hello world in that world program</p>
-                                        </div>
+                                        <a href="template/index.html">
+                                            <div class="text">
+                                                <h1>Hello World</h1>
+                                                <p>lorem hello world in that world program</p>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                                 <!--second column
