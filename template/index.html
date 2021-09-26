@@ -7,26 +7,29 @@
     <script src="jquery-3.5.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/data.js" defer></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
 
 <body>
-
-    <div>
-        <h1><a href="../index.html">Hello world</a></h1>
-    </div>
-    <header>
-    </header>
-
-    <nav>
-        <div class="grid">
-            <a href="#" id="Home" class="bar cell01">Home</a>
-            <a href="#projects" id="Projects" class="bar cell02">Projects</a>
-            <a href="#donate" id="Donate" class="bar cell04">Donate</a>
+    <div class="container-fluid">
+        <div class="row">
+            <h1><a href="../index.html">Hello world</a></h1>
         </div>
-    </nav>
+        <header>
+        </header>
 
-    <main>
+        <nav class="row">
+            <div class="grid">
+                <a href="#" id="Home" class="bar cell01 col-md-4">Home</a>
+                <a href="#projects" id="Projects" class="bar cell02 col-md-8">Projects</a>
+                <a href="#donate" id="Donate" class="bar cell04 col-md-12">Donate</a>
+            </div>
+        </nav>
+
+    </div>
+
+    <main class="container-fluid">
 
         <section id="home" class="grid">
             <h1>Home</h1>
