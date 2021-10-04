@@ -8,12 +8,12 @@
         justify-content: center;
         position: relative;
         flex-direction: column;
-        padding: 10px;
+        /* padding: 10px; */
     }
     .container {
         flex: 1 1 48%;
         position: relative;
-        margin: 0 5px;
+        /* margin: 0 5px; */
         /*width: 100%;*/
     }
 }
@@ -66,12 +66,12 @@
         margin: 10px auto;
         /*border: none;*/
     }
-    .container {
-        /* flex: 1 1 48%; */
-        /* position: relative; */
+    /* .container {
+        flex: 1 1 48%;
+        position: relative;
         padding: 10px 0;
-        /*width: 100%;*/
-    }
+        width: 100%;
+    } */
 }
 
 @media screen and (max-width:320px) {
