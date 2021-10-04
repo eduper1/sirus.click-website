@@ -7,14 +7,36 @@
 //         x.style.display = "block";
 //     }
 // }
+let preAbout = document.getElementById("about");
+preAbout.style.display = "none";
 
-$("#Home").click(function() {
-    alert("...mmm!");
-    $("#home").show();
-    $("#about").hide();
-    console.log("Hello");
-    //$("#donate").hide();
-});
+function myfunc() {
+    // console.log("...........xfcsdca");
+    // var y = document.getElementById("xaz");
+    // y.innerHTML = "clicked";
+    let about = document.getElementById("about");
+    about.style.display = "none";
+    let home = document.getElementById("home");
+    home.style.display = "block";
+}
+
+function aboutFunc() {
+    console.log("...wow...");
+    // var About = document.getElementById("About");
+    // About.innerHTML = "clicked";
+    let home = document.getElementById("home");
+    home.style.display = "none";
+    let about = document.getElementById("about");
+    about.style.display = "block";
+}
+//myfunc();
+// $("#Home").click(function() {
+//     alert("...mmm!");
+//     $("#home").show();
+//     $("#about").hide();
+//     console.log("Hello");
+//     //$("#donate").hide();
+// });
 // $("#About").click(function() {
 //     $("#about").show();
 //     $("#home").hide();
