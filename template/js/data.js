@@ -1,5 +1,6 @@
 $("#Home").click(function() {
     $("#home").show();
+    alert("...mmm...!");
     $("#projects").hide();
     $("#donate").hide();
 });

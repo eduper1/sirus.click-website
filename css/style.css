@@ -212,6 +212,22 @@ figcaption {
     white-space: normal;
 }
 
+button {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    position: absolute;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    bottom: 20%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -40%);
+    -ms-transform: translate(-50%, -40%);
+    transform: translate(-50%, -40%);
+    white-space: normal;
+}
+
 .p-right i {
     color: #fff;
 }
