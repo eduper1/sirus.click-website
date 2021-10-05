@@ -55,11 +55,11 @@
     }
     .link {
         display: inline-block;
-        width: 30%;
-        margin: auto;
+        /* width: 30%;
+        margin: auto; */
     }
     .link a {
-        padding: 20px 0;
+        padding: 10px;
         /*width: 17em;*/
         max-width: 50%;
         font-size: medium;

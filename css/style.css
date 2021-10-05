@@ -24,7 +24,7 @@ main {
     /*background-color: linear-gradient(to right top, #65cfd9, #6bdcfb);*/
     background-color: burlywood;
     max-height: 100vh;
-    color: brown;
+    color: #7400f8;
     padding: 2rem;
     margin: auto;
     width: 80vw;
@@ -60,19 +60,19 @@ main {
 .link {
     display: grid;
     grid-template-rows: auto;
-    overflow: hidden;
+    /* overflow: hidden; */
     text-align: center;
-    margin: 20px 0;
+    margin: 20px auto;
     list-style: none;
 }
 
 .link a {
     list-style: none;
     width: 7em;
-    margin: 0 auto;
+    /* margin: 30px auto; */
     border: 1px solid red;
     text-decoration: none;
-    color: #6bdcfb;
+    color: #7400f8;
     text-align: center;
     padding: 4px 3px;
     text-decoration: none;
@@ -103,6 +103,7 @@ main {
 
 figcaption {
     font-size: small;
+    text-transform: uppercase;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -135,7 +136,7 @@ figcaption {
 
 .mainHeader h1 {
     text-align: left;
-    line-height: 5em;
+    line-height: 3.5em;
     letter-spacing: 0.5em;
     text-decoration: overline;
     white-space: nowrap;
@@ -155,7 +156,7 @@ figcaption {
     flex: 0 1 48%;
     position: relative;
     margin: 5px;
-    /*width: 100%;*/
+    /* width: 100%; */
 }
 
 .image {
