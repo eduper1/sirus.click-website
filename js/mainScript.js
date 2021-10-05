@@ -16,9 +16,13 @@ function myfunc() {
     // y.innerHTML = "clicked";
     let about = document.getElementById("about");
     about.style.display = "none";
+    let aboutLink = document.getElementById("About");
+    aboutLink.style.backgroundColor = "inherit";
     let home = document.getElementById("home");
     home.style.display = "block";
-}
+    let homeLink = document.getElementById("xaz");
+    homeLink.style.backgroundColor = "rgb(255, 196, 0)";
+};
 
 function aboutFunc() {
     console.log("...wow...");
@@ -26,9 +30,15 @@ function aboutFunc() {
     // About.innerHTML = "clicked";
     let home = document.getElementById("home");
     home.style.display = "none";
+    let homeLink = document.getElementById("xaz");
+    homeLink.style.backgroundColor = "inherit";
     let about = document.getElementById("about");
     about.style.display = "block";
-}
+    let aboutLink = document.getElementById("About");
+    aboutLink.style.backgroundColor = "rgb(255, 196, 0)";
+};
+
+
 //myfunc();
 // $("#Home").click(function() {
 //     alert("...mmm!");
