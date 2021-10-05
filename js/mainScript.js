@@ -7,8 +7,13 @@
 //         x.style.display = "block";
 //     }
 // }
-let preAbout = document.getElementById("about");
-preAbout.style.display = "none";
+document.addEventListener("DOMContentLoaded", function() {
+    let homeLink = document.getElementById("xaz");
+    homeLink.style.backgroundColor = "rgb(255, 196, 0)";
+    let preAbout = document.getElementById("about");
+    preAbout.style.display = "none";
+});
+
 
 function myfunc() {
     // console.log("...........xfcsdca");

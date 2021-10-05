@@ -116,6 +116,7 @@ figcaption {
 .main {
     width: 100%;
     overflow-y: scroll;
+    scroll-snap-type: y proximity;
     overflow-x: hidden;
     scroll-behavior: smooth;
     height: 205px;
@@ -161,6 +162,7 @@ figcaption {
 .container {
     flex: 0 1 48%;
     position: relative;
+    scroll-snap-align: start;
     margin: 5px;
     /* width: 100%; */
 }
