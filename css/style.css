@@ -163,6 +163,7 @@ figcaption {
     flex: 0 1 48%;
     position: relative;
     scroll-snap-align: start;
+    /* scroll-snap-stop: always; */
     margin: 5px;
     /* width: 100%; */
 }
