@@ -12,8 +12,12 @@ document.addEventListener("DOMContentLoaded", function() {
     homeLink.style.backgroundColor = "rgb(255, 196, 0)";
     let preAbout = document.getElementById("about");
     preAbout.style.display = "none";
+    myFunction();
 });
 
+function myFunction() {
+    setTimeout(function() { alert("Hello, this site is still in development process.\nIf you encounter any issue get us through our social media pages.\n\t\t\tThank you."); }, 3000);
+}
 
 function myfunc() {
     // console.log("...........xfcsdca");
