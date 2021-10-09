@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function myFunction() {
-    setTimeout(function() { alert("Hello, this site is still in development process.\nIf you encounter any issue get us through our social media pages.\n\t\t\tThank you."); }, 3000);
+    setTimeout(function() { alert("Hello, this site is still in development process.\nIf you encounter any issue get us through our social media pages.\nThank you."); }, 3000);
 }
 
 function myfunc() {
