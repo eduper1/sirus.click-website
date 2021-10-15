@@ -175,6 +175,7 @@ figcaption {
 }
 
 .overlay {
+    display: block;
     position: absolute;
     bottom: 0;
     left: 100%;
@@ -200,7 +201,7 @@ figcaption {
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
     overflow: hidden;
-    top: 20%;
+    bottom: calc(100% - 20%);
     left: 50%;
     -webkit-transform: translate(-50%, -20%);
     -ms-transform: translate(-50%, -20%);
@@ -216,7 +217,7 @@ figcaption {
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
     overflow: hidden;
-    bottom: 40%;
+    top: calc(100% - 60%);
     left: 50%;
     -webkit-transform: translate(-50%, -40%);
     -ms-transform: translate(-50%, -40%);
@@ -232,7 +233,7 @@ button {
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
     overflow: hidden;
-    bottom: 20%;
+    top: calc(100% - 20px);
     left: 50%;
     -webkit-transform: translate(-50%, -40%);
     -ms-transform: translate(-50%, -40%);
