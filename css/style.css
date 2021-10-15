@@ -179,7 +179,7 @@ figcaption {
     bottom: 0;
     left: 100%;
     right: 0;
-    background-color: #fdfdfdb9;
+    background-color: rgba(0, 0, 0, 0.5);
     overflow: hidden;
     width: 0;
     height: 100%;
@@ -195,7 +195,7 @@ figcaption {
 }
 
 .text h1 {
-    color: #000;
+    color: #f1f1f1;
     position: absolute;
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
@@ -211,7 +211,7 @@ figcaption {
 .text p {
     font-size: small;
     font-family: Arial, Helvetica, sans-serif;
-    color: #000;
+    color: #f1f1f1;
     position: absolute;
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
