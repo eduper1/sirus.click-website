@@ -7,17 +7,75 @@
 //         x.style.display = "block";
 //     }
 // }
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function(e) {
+    e.preventDefault();
     let homeLink = document.getElementById("xaz");
     homeLink.style.backgroundColor = "rgb(255, 196, 0)";
     let preAbout = document.getElementById("about");
     preAbout.style.display = "none";
+    // if (1 === 1) {
+    //     let text = document.querySelector(".sirius");
+    //     text.textContent = "Manal zubeyda";
+
+    // }
     myFunction();
 });
 
 function myFunction() {
     setTimeout(function() { alert("Hello, this site is still in development process.\nIf you encounter any issue get us through our social media pages.\nThank you."); }, 3000);
 }
+
+// Text animation
+const text = document.getElementById("sirius");
+const imageP = document.getElementById("p-img");
+const imageCap = document.getElementById("p-cap");
+
+function showTime() {
+    let today = new Date;
+    console.log(today.getDate());
+    return today.getDate();
+}
+// showTime();
+
+if (showTime() === 18) {
+    text.innerText = "Manal zubeyd";
+    imageP.setAttribute('src', '../image/rose.jpg');
+    imageCap.textContent = "Happy Birthday";
+    if (window.screenX <= 351) {
+        text.style.fontSize = "large";
+    } else {
+        text.style.fontSize = "initial";
+    }
+}
+var strText = text.textContent;
+var splitText = strText.split("");
+text.textContent = "";
+
+
+
+for (let i = 0; i < splitText.length; i++) {
+    text.innerHTML += "<span>" + splitText[i] + "</span>";
+}
+
+let char = 0;
+let timer = setInterval(onTick, 500);
+
+function onTick() {
+    const span = text.querySelectorAll("span")[char];
+    span.classList.add("fade");
+    char++;
+
+    if (char === splitText.length) {
+        complete();
+        return;
+    }
+}
+
+function complete() {
+    clearInterval(timer);
+    timer = null;
+}
+
 
 function myfunc() {
     // console.log("...........xfcsdca");

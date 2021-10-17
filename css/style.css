@@ -107,6 +107,44 @@ main {
     border-radius: 50%;
 }
 
+
+/* .captioner {
+    opacity: 0;
+    transition: all 0.5s ease-out;
+    transform: translateX(50px);
+    transform: translateY(-50px);
+} */
+
+
+/* .anime { */
+
+
+/* opacity: 1; */
+
+
+/* display: inline-block; */
+
+
+/* transform: translateX(0); */
+
+
+/* transition: transform 0.5s; */
+
+
+/* transform: translateY(50px); */
+
+
+/* transform: ; */
+
+
+/* transform:rotate(); */
+
+
+/* color: purple; */
+
+
+/* } */
+
 figcaption {
     font-size: small;
     text-transform: uppercase;
@@ -289,6 +327,22 @@ button {
     color: white;
 }
 
+span {
+    opacity: 0;
+    transition: all 0.5s ease-out;
+    /* transform: translateX(50px); */
+    transform: translateY(-50px);
+}
+
+span.fade {
+    opacity: 1;
+    display: inline-block;
+    /* transform: translateX(0); */
+    transform: translateY(0);
+    /* transform:rotate(); */
+    color: aqua;
+}
+
 
 /* instagram*/
 
@@ -300,11 +354,12 @@ button {
 
 /* snapchat */
 
-.fa-snapchat-ghost {
+
+/* .fa-snapchat-ghost {
     background: #fffc00;
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
+} */
 
 
 /*Add a black background color to the top navigation 
