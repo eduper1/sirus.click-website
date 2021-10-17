@@ -21,6 +21,10 @@
     <link rel="icon" href="../image/profilemodified.png" sizes="32x32" type="image/png">
     <link rel="icon" href="../image/profilemodified.png" sizes="16x16" type="image/png">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="js/template.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-18W06453WT"></script>
@@ -36,6 +40,14 @@
     </script>
 
     <style>
+        .container {
+            background-color: blanchedalmond;
+        }
+        
+        .about-bg {
+            background-color: burlywood;
+        }
+        
         .bd-placeholder-img {
             font-size: 1.125rem;
             text-anchor: middle;
@@ -135,6 +147,9 @@
                     <p>From a distance, let observe our surrounding: our friends, neighbors, classmate, colleagues at work, our pets and objects around us are relatively in motion with us in unique reference of time. Everything, at that frame of time, around
                         us are there for a reason wether revealed to us or not and vice versa.</p>
                     <hr>
+                    <img class="b-img" width="200" height="250" src="https://image.freepik.com/free-photo/closeup-group-diverse-smiling-kids-grayscale_53876-23007.jpg" alt="">
+                    <br>
+                    <br>
                     <p>Venus setting, it's the brightest of all in our observable sky though that may not be true. Glancing at the Northern stars, some are fainter while others are brighter. Some shine blue-white while others orange-red but all have one
                         thing in common, they are not positioned where they seem to be. It is more likely we are perceiving it's position before hours ago.</p>
                     <p>Comparing to ourselves, we might have been introduced to ourselves since childhood as intelligent, beautiful, handsome, awesome, masters or misters though that may not be true. Perhaps others were raised in misfortune environment.</p>
@@ -149,163 +164,34 @@
                     <p>Summing up, diversity can't be reached with standardized system. A system that grades or degrades. Neither can we achieve it 100% but a continuous progress towards it. Just like the stars in the sky, we can all (with our differences)
                         share and live in cohesion on this Earth.</p>
 
-
-                    <!-- <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing,
-                        so be on the lookout for this exact same string of text.</p>
-                    <h2>Blockquotes</h2> -->
-                    <img class="bd-placeholder-img" width="200" height="250" src="../image/rose.jpg" alt="">
-                    <!-- <p>This is an example blockquote in action:</p>
-                    <blockquote class="blockquote">
-                        <p>Quoted text goes here.</p>
-                    </blockquote>
-                    <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing,
-                        so be on the lookout for this exact same string of text.</p>
-                    <h3>Example lists</h3>
-                    <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout. This is an example unordered list:</p>
-                    <ul>
-                        <li>First list item</li>
-                        <li>Second list item with a longer description</li>
-                        <li>Third list item to close it out</li>
-                    </ul>
-                    <p>And this is an ordered list:</p>
-                    <ol>
-                        <li>First list item</li>
-                        <li>Second list item with a longer description</li>
-                        <li>Third list item to close it out</li>
-                    </ol>
-                    <p>And this is a definition list:</p>
-                    <dl>
-                        <dt>HyperText Markup Language (HTML)</dt>
-                        <dd>The language used to describe and define the content of a Web page</dd>
-                        <dt>Cascading Style Sheets (CSS)</dt>
-                        <dd>Used to describe the appearance of Web content</dd>
-                        <dt>JavaScript (JS)</dt>
-                        <dd>The programming language used to build advanced Web sites and applications</dd>
-                    </dl>
-                    <h2>Inline HTML elements</h2>
-                    <p>HTML defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
-                    <ul>
-                        <li><strong>To bold text</strong>, use <code class="language-plaintext highlighter-rouge">&lt;strong&gt;</code>.</li>
-                        <li><em>To italicize text</em>, use <code class="language-plaintext highlighter-rouge">&lt;em&gt;</code>.</li>
-                        <li>Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use <code class="language-plaintext highlighter-rouge">&lt;abbr&gt;</code>, with an optional <code class="language-plaintext highlighter-rouge">title</code>                            attribute for the full phrase.</li>
-                        <li>Citations, like <cite>— Mark Otto</cite>, should use <code class="language-plaintext highlighter-rouge">&lt;cite&gt;</code>.</li>
-                        <li><del>Deleted</del> text should use <code class="language-plaintext highlighter-rouge">&lt;del&gt;</code> and <ins>inserted</ins> text should use <code class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.</li>
-                        <li>Superscript <sup>text</sup> uses <code class="language-plaintext highlighter-rouge">&lt;sup&gt;</code> and subscript <sub>text</sub> uses <code class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.</li>
-                    </ul>
-                    <p>Most of these elements are styled by browsers with few modifications on our part.</p>
-                    <h2>Heading</h2>
-                    <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing,
-                        so be on the lookout for this exact same string of text.</p>
-                    <h3>Sub-heading</h3>
-                    <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing,
-                        so be on the lookout for this exact same string of text.</p>
-                    <pre><code>Example code block</code></pre>
-                    <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.
-                    </p> -->
                 </article>
 
-                <!-- <article class="blog-post">
-                    <h2 class="blog-post-title">Another blog post</h2>
-                    <p class="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>
-
-                    <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing,
-                        so be on the lookout for this exact same string of text.</p>
-                    <blockquote>
-                        <p>Longer quote goes here, maybe with some <strong>emphasized text</strong> in the middle of it.</p>
-                    </blockquote>
-                    <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing,
-                        so be on the lookout for this exact same string of text.</p>
-                    <h3>Example table</h3>
-                    <p>And don't forget about tables in these posts:</p>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th>Upvotes</th>
-                                <th>Downvotes</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Alice</td>
-                                <td>10</td>
-                                <td>11</td>
-                            </tr>
-                            <tr>
-                                <td>Bob</td>
-                                <td>4</td>
-                                <td>3</td>
-                            </tr>
-                            <tr>
-                                <td>Charlie</td>
-                                <td>7</td>
-                                <td>9</td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <td>Totals</td>
-                                <td>21</td>
-                                <td>23</td>
-                            </tr>
-                        </tfoot>
-                    </table>
-
-                    <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.
-                    </p>
-                </article>
-
-                <article class="blog-post">
-                    <h2 class="blog-post-title">New feature</h2>
-                    <p class="blog-post-meta">December 14, 2020 by <a href="#">Chris</a></p>
-
-                    <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing,
-                        so be on the lookout for this exact same string of text.</p>
-                    <ul>
-                        <li>First list item</li>
-                        <li>Second list item with a longer description</li>
-                        <li>Third list item to close it out</li>
-                    </ul>
-                    <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.
-                    </p>
-                </article> -->
 
                 <nav class="blog-pagination" aria-label="Pagination">
-                    <a class="btn btn-outline-primary" href="#">Older</a>
-                    <a class="btn btn-outline-secondary disabled">Newer</a>
+                    <a id="like-up" class="btn btn-info btn-sm">
+                        <span class="glyphicon glyphicon-thumbs-up"></span> Likes
+                    </a>
+                    <a id="like-down" class="btn btn-info btn-sm">
+                        <span class="glyphicon glyphicon-thumbs-down"></span> Dislikes
+                    </a>
                 </nav>
 
             </div>
 
             <div class="col-md-4">
                 <div class="position-sticky" style="top: 2rem;">
-                    <div class="p-4 mb-3 bg-light rounded">
+                    <div class="p-4 mb-3 about-bg rounded">
                         <h4 class="fst-italic">About</h4>
                         <p class="mb-0">Customize this section to tell your visitors a little bit about your publication, writers, content, or something else entirely. Totally up to you.</p>
                     </div>
 
-                    <div class="p-4">
+                    <!-- <div class="p-4">
                         <h4 class="fst-italic">Archives</h4>
-                        <!-- <ol class="list-unstyled mb-0">
-                            <li><a href="#">March 2021</a></li>
-                            <li><a href="#">February 2021</a></li>
-                            <li><a href="#">January 2021</a></li>
-                            <li><a href="#">December 2020</a></li>
-                            <li><a href="#">November 2020</a></li>
-                            <li><a href="#">October 2020</a></li>
-                            <li><a href="#">September 2020</a></li>
-                            <li><a href="#">August 2020</a></li>
-                            <li><a href="#">July 2020</a></li>
-                            <li><a href="#">June 2020</a></li>
-                            <li><a href="#">May 2020</a></li>
-                            <li><a href="#">April 2020</a></li>
-                        </ol> -->
-                    </div>
+                    </div> -->
 
                     <div class="p-4">
-                        <h4 class="fst-italic">Elsewhere</h4>
+                        <h4 class="fst-italic">Social Media</h4>
                         <ol class="list-unstyled">
-                            <!-- <li><a href="#">GitHub</a></li> -->
                             <li><a href="https://twitter.com/sirus_click">Twitter</a></li>
                             <li><a href="https://www.tiktok.com/@sirus737?lang=en#">Tiktok</a></li>
                         </ol>
@@ -313,20 +199,15 @@
                 </div>
             </div>
         </div>
-
     </main>
-
     <footer class="blog-footer">
-        <p>All right reserved for <a href="www.sirus.click">sirus.click</a><sup>&copy;</sup>.</p>
-        <p>
-            <a href="#">Back to top</a>
-        </p>
+        <div class="">
+            <p>All rights reserved for <a href="www.sirus.click">sirus.click</a><sup>&copy;</sup>.</p>
+            <p>
+                <a href="#">Back to top</a>
+            </p>
+        </div>
     </footer>
-
-
-
-
-
 </body>
 
 </html>
