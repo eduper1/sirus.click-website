@@ -38,7 +38,7 @@ function showTime() {
 // showTime();
 
 if (showTime() === 18) {
-    text.innerText = "Manal zubeyd";
+    text.innerText = "Manal   zubeyd";
     imageP.setAttribute('src', '../image/rose.jpg');
     imageCap.textContent = "Happy Birthday";
     if (window.screenX <= 351) {
@@ -61,20 +61,20 @@ let char = 0;
 let timer = setInterval(onTick, 500);
 
 function onTick() {
-    const span = text.querySelectorAll("span")[char];
-    span.classList.add("fade");
+    const spanEl = text.querySelectorAll("span")[char];
+    spanEl.classList.add("fade");
     char++;
 
-    if (char === splitText.length) {
-        complete();
-        return;
-    }
+    // if (char === splitText.length) {
+    // complete();
+    // return;
+    // }
 }
 
-function complete() {
-    clearInterval(timer);
-    timer = null;
-}
+// function complete() {
+// clearInterval(timer);
+// timer = null;
+// }
 
 
 function myfunc() {
