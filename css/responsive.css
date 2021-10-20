@@ -27,7 +27,7 @@
     }
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:666px) {
     main {
         max-height: 100%;
         overflow: auto;
@@ -85,6 +85,12 @@
         padding: 10px 0;
         width: 100%;
     } */
+}
+
+@media screen and (max-width:500px) {
+    .image {
+        height: 100%;
+    }
 }
 
 @media screen and (max-width:374px) {
