@@ -1,3 +1,9 @@
+@media screen and (max-width:1228px) {
+    .mb-0 {
+        font-size: 15px;
+    }
+}
+
 @media screen and (max-width:1150px) {
     .main {
         width: 100%;
@@ -24,6 +30,10 @@
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 1fr;
         width: 100%;
+    }
+    .mb-0 {
+        font-size: 0.9em;
+        /* padding: auto; */
     }
 }
 
@@ -78,6 +88,9 @@
         height: 100%;
         white-space: nowrap;
         transition: .5s step-start;
+    }
+    .mb-0 {
+        font-size: medium;
     }
     /* .container {
         flex: 1 1 48%;
