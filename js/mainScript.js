@@ -18,12 +18,12 @@ document.addEventListener("DOMContentLoaded", function(e) {
     //     text.textContent = "Manal zubeyda";
 
     // }
-    myFunction();
+    // myFunction();
 });
 
-function myFunction() {
-    setTimeout(function() { alert("Hello, this site is still in development process.\nIf you encounter any issue get us through our social media pages.\nThank you."); }, 3000);
-}
+// function myFunction() {
+// setTimeout(function() { alert("Hello, this site is still in development process.\nIf you encounter any issue get us through our social media pages.\nThank you."); }, 3000);
+// }
 
 // Text animation
 const text = document.getElementById("sirius");
