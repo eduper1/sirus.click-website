@@ -1,0 +1,24 @@
+{
+    "blog": [
+        {
+        
+            "article":
+                {
+                    "header":{
+    
+                        "id":1,
+                        "topic": "",
+                        "date": null,
+                        "author":""
+                    },
+                    "body":{
+                        "intLink":[],
+                        "subHeader":[],
+                        "text":"",
+                        "images":[]
+                    }
+    
+                }
+        }   
+    ]
+}
